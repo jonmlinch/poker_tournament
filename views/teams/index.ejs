@@ -1,0 +1,9 @@
+<h2>All the teams!</h2>
+
+<% teams.forEach(function(t){ %>
+	<div>
+		<h4>
+			<a href="/teams/<%= t.name %>"><%= t.name %></a>
+		</h4>
+	</div>
+<% }); %>
